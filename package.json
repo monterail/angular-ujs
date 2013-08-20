@@ -6,6 +6,7 @@
     "Tymon Tobolski <tymon.tobolski@monterail.com>",
     "Jan Dudulski <jan.dudulski@monterail.com>"
   ],
+  "repository": "git://github.com/monterail/angular-ujs.git",
   "description": "jQuery-ujs replacement for Rails in Angular",
   "main": "build/angular-ujs.js",
   "dependencies": {

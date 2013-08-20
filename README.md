@@ -14,6 +14,24 @@ Without Rails:
 </div>
 ```
 
+Include `ujs` module in your app module.
 ```js
 angular.module('myApp', ['ujs']);
 ```
+
+
+## Development
+
+```bash
+npm install
+grunt
+```
+
+## Contributing
+
+1. Fork it
+2. Create your feature branch (`git checkout -b my-new-feature`)
+3. Commit your changes (`git commit -am 'Add some feature'`)
+4. Push to the branch (`git push origin my-new-feature`)
+5. Create new Pull Request
+

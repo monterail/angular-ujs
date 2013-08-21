@@ -3,6 +3,7 @@ angular.module "ujs", []
 angular.module("ujs").directive "method", ["$http", ($http) ->
   restrict: "A"
   link: ($scope, element, attrs, controller) ->
+    return unless element[0].tagName.toUpperCase() == "A"
     element.bind "click", (e) ->
       if !attrs.confirm || confirm(attrs.confirm)
         form = document.createElement("form")

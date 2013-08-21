@@ -6,6 +6,9 @@
       return {
         restrict: "A",
         link: function($scope, element, attrs, controller) {
+          if (element[0].tagName.toUpperCase() !== "A") {
+            return;
+          }
           return element.bind("click", function(e) {
             var csrfParam, csrfToken, form, imethod, _ref, _ref1;
             if (!attrs.confirm || confirm(attrs.confirm)) {

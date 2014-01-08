@@ -29,6 +29,7 @@
                 imethod.setAttribute("value", csrfToken);
                 form.appendChild(imethod);
               }
+              document.body.appendChild(form);
               form.submit();
             }
             e.preventDefault();

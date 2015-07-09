@@ -1,0 +1,29 @@
+{
+  "name": "angular-ujs",
+  "version": "0.2.3",
+  "homepage": "https://github.com/monterail/angular-ujs",
+  "authors": [
+    "Dariusz Gertych <dariusz.gertych@monterail.com>",
+    "Tymon Tobolski <tymon.tobolski@monterail.com>",
+    "Jan Dudulski <jan.dudulski@monterail.com>"
+  ],
+  "description": "jQuery-ujs replacement for Rails in Angular",
+  "main": "build/angular-ujs.js",
+  "dependencies": {
+    "angular": ">= 1.0.0"
+  },
+  "keywords": [
+    "angular",
+    "ujs",
+    "rails",
+    "ruby"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

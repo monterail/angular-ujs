@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../build/angular-ujs.min.js"></script>
+    <script>
+      angular.module("app", ["ujs"])
+    </script>
+  </head>
+  <body>
+    {{ 1 + 2 }}<br>
+
+    <a href="/test" data-method="delete" data-confirm="R U sure?">Delete</a>
+    <button to="/test" type="button" data-method="delete" data-confirm="R U Sure?">Delete</button>
+  </body>
+</html>
